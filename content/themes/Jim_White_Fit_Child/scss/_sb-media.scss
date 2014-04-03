@@ -1,0 +1,14 @@
+$no-mq-support: false !default;
+$no-mq-threshold:60em;
+
+@mixin sb-media($query) {
+  @if $no-mq-support{
+    @if $query < $no-mq-threshold{
+      @content;
+    }
+  } @else {
+    @media ( 'min-width:' + $query ) {
+      @content;
+    }
+  }
+}

@@ -1,0 +1,114 @@
+.fleft {
+float:left;
+margin-right:8px;
+}
+.fright {
+float:right;
+margin-left:8px;
+}
+
+.content ul.boxed					{ margin:0 20px 20px; list-style-type:none;}
+.content ol.boxed					{ margin:0 0 20px 50px; list-style-type:none;}
+
+/* Typography */
+.post h1, .post h2, .post h3, .post h4 { font-family: MuseoLight, Georgia, serif; font-weight: normal; margin: 0 0 10px 0; }
+.post h2 { font-size: 28px; }
+.post h2 { padding: 10px 180px 10px 15px; background: #237abf url(../images/title-bg.png) repeat-x; margin: 0; line-height: 1.3; font-size: 22px; }
+.post h2, .post h2 a { color: white; text-shadow: 0 1px 2px #143855; }
+.post h2 a:hover { color: #b8e0ff; }
+.post h3 { font-size: 20px; padding: 5px 0; margin: 30px 0 15px 0; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; }
+.post h4 { font-size: 18px; }
+.post p { margin: 0 0 10px 0; }
+.post pre { background: #eee; padding: 15px; overflow: auto; margin: 0 0 15px 0; border: 1px solid #ddd; }
+.post pre code { font-size: 11px; }
+.post code { background: #eee; font: 12px Monaco, Courier, Monospace; color: #0E304A; }
+.post h3 code { font-size: 18px; }
+.post acronym, abbr { border-bottom: 1px dotted #514031; cursor: help; }
+.post ins { text-decoration: underline; }
+.post del { text-decoration: line-through; }
+.post a { outline: none; text-decoration: none; color: #19517C; background: #eee; border: 1px solid #ddd; padding: 1px 3px 2px 3px; -webkit-border-radius: 3px; -khtml-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
+.post a:hover { color: #fff; background: #143855; border: 1px solid #143855; }
+
+/* image alignment */
+img.alignright {float:right; margin:0 0 1em 1em}
+img.alignleft {float:left; margin:0 15px 15px 0}
+img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+a img.alignright {float:right; margin:0 0 1em 1em}
+a img.alignleft {float:left; margin:0 1em 1em 0}
+a img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+
+blockquote {
+     background:#f9f9f9;
+     border-left:10px solid #ccc;
+     margin:1.5em 10px;
+     padding:.5em 10px;
+     quotes:"\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+     color:#ccc;
+     content:open-quote;
+     font-size:4em;
+     line-height:.1em;
+     margin-right:.25em;
+     vertical-align:-.4em;
+}
+blockquote p {
+     display:inline;
+}
+
+
+/* usage:  <a class="tooltip" href="#">great snippet<span class="classic">This is just an example of what you can do with this CSS tooltip.</span></a> */
+.tooltip {
+     color:#066; outline: none;
+     text-decoration: underline;
+     position: relative;
+}
+.tooltip span {
+     margin-left: -999em;
+     position: absolute;
+}
+.tooltip:hover span {
+     border-radius: 5px 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; 
+     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1); -webkit-box-shadow: 5px 5px rgba(0, 0, 0, 0.1); 
+     -moz-box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+     position: absolute; left: 10px; top: 25px; z-index: 99;
+     margin-left: 0; width: 230px;
+}
+.classic { 
+     padding: 0.8em 1em; background: #FFFFAA; border: 1px solid #FFAD33; }
+     * html a:hover { background: transparent;  /* to help IE6 */
+}
+
+/* Captions */
+.aligncenter,
+div.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.wp-caption {
+	border: 1px solid #ddd;
+	text-align: center;
+	background-color: #f3f3f3;
+	padding-top: 4px;
+	margin: 10px;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.wp-caption img {
+	margin: 0;
+	padding: 0;
+	border: 0 none;
+}
+
+.wp-caption p.wp-caption-text {
+	font-size: 11px;
+	line-height: 17px;
+	padding: 0 4px 5px;
+	margin: 0;
+}
+/* End captions */

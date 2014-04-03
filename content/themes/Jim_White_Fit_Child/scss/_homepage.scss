@@ -1,0 +1,83 @@
+.parallax {
+
+	background-attachment:fixed;
+	background-size: cover;
+	width: 100%;
+	height: auto;
+	position: relative;
+	padding:100px 0;
+	
+}
+
+#promise {
+	padding:100px 0;
+	background:url(http://jimwhitefit.com/ontogenesis/wp-content/themes/Jim_White_Fit/images/man-woman-urban-running.jpg) no-repeat;
+
+	p {
+		text-align: center;
+		color:$white;
+	}
+
+}
+
+.home-callouts {
+	background:$off-black;
+	text-align:center;
+	
+	div {
+		
+		padding:20px 0;
+		color:$white;
+		
+		@include sb-media(61em) {
+			padding:50px 0;
+		}
+	}
+}
+
+.home-clients {
+	
+	color:$white;
+	
+	.success-bio {
+		
+		width:100%;
+		float:none;
+		
+		@include sb-media (61em) {
+			width:60%;
+			float:right;
+		}
+	}
+	
+	.success-pic {
+		
+		width:100%;
+		float:none;
+		background:$ice-blue;
+		
+		@include sb-media (61em) {
+			width:40%;
+			float:left;
+		}
+	}
+	
+	
+	h2 {
+		color:$white !important;
+	}
+	
+	.client-excerpt {
+		display:none;
+		
+		@include sb-media(61em) {
+			display:inline;
+		}		
+	}	
+}
+
+.coach-carousel {
+	
+	background:$ice-blue;
+	
+}

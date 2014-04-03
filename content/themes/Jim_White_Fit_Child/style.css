@@ -1,0 +1,11 @@
+/*
+Theme Name: Jim White Fit Theme Child Theme
+Theme URI: http://www.leslehmanphp.com/
+Description: This is a custom child theme Red Chalk Studios has created.
+Author: Red Chalk Studios & Brent Ransom
+Author URI: http://redchalkstudios.com
+Template: Jim_White_Fit
+Version: 0.1
+*/
+
+@import url("../Jim_White_Fit/style.css");
