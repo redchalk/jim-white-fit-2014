@@ -7,7 +7,7 @@
 	<?php 
 				
 		$post_type = 'clients';
-		$post_category = 2; //get_sub_field('post_category'); //will need category id numbers
+		$post_category = 3; //get_sub_field('post_category'); //will need category id numbers
 		$total_posts = get_sub_field('total_clients');
 		$id = get_sub_field('slider_name');
 												
